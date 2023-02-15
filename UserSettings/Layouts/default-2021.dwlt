@@ -19,36 +19,12 @@ MonoBehaviour:
     width: 2560
     height: 1037
   m_ShowMode: 4
-  m_Title: Game
-  m_RootView: {fileID: 13}
-  m_MinSize: {x: 875, y: 350}
+  m_Title: Hierarchy
+  m_RootView: {fileID: 12}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 11}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 30
-    width: 2560
-    height: 987
-  m_MinSize: {x: 400, y: 200}
-  m_MaxSize: {x: 32384, y: 16192}
-  vertical: 1
-  controlID: 281
---- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -64,19 +40,19 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 673
-    width: 1315
-    height: 314
+    y: 674
+    width: 1262
+    height: 313
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 27}
+  m_ActualView: {fileID: 25}
   m_Panes:
-  - {fileID: 27}
-  - {fileID: 18}
-  - {fileID: 19}
+  - {fileID: 25}
+  - {fileID: 16}
+  - {fileID: 17}
   m_Selected: 0
   m_LastSelected: 2
---- !u!114 &4
+--- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -89,19 +65,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 16}
-  - {fileID: 3}
+  - {fileID: 15}
+  - {fileID: 2}
   m_Position:
     serializedVersion: 2
     x: 360
     y: 0
-    width: 1315
+    width: 1262
     height: 987
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 867
---- !u!114 &5
+  controlID: 10949
+--- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -120,14 +96,14 @@ MonoBehaviour:
     y: 0
     width: 360
     height: 987
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 24}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 22}
   m_Panes:
-  - {fileID: 24}
+  - {fileID: 22}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &6
+--- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -143,17 +119,17 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 546
-    width: 570
-    height: 441
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 20}
+    y: 656
+    width: 598
+    height: 331
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 20}
+  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &7
+--- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -166,19 +142,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 12}
-  - {fileID: 6}
+  - {fileID: 11}
+  - {fileID: 5}
   m_Position:
     serializedVersion: 2
-    x: 1990
+    x: 1962
     y: 0
-    width: 570
+    width: 598
     height: 987
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 865
---- !u!114 &8
+  controlID: 10944
+--- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -195,16 +171,16 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 658
-    width: 315
+    width: 340
     height: 329
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
-  m_ActualView: {fileID: 21}
+  m_ActualView: {fileID: 19}
   m_Panes:
-  - {fileID: 21}
+  - {fileID: 19}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &9
+--- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -217,19 +193,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 10}
-  - {fileID: 8}
+  - {fileID: 9}
+  - {fileID: 7}
   m_Position:
     serializedVersion: 2
-    x: 1675
+    x: 1622
     y: 0
-    width: 315
+    width: 340
     height: 987
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 711
---- !u!114 &10
+  controlID: 10974
+--- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -246,16 +222,16 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 315
+    width: 340
     height: 658
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
-  m_ActualView: {fileID: 22}
+  m_ActualView: {fileID: 20}
   m_Panes:
-  - {fileID: 22}
+  - {fileID: 20}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &11
+--- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -268,21 +244,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 5}
   - {fileID: 4}
-  - {fileID: 9}
-  - {fileID: 7}
+  - {fileID: 3}
+  - {fileID: 8}
+  - {fileID: 6}
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 0
+    y: 30
     width: 2560
     height: 987
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 282
---- !u!114 &12
+  controlID: 10943
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -299,16 +275,16 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 570
-    height: 546
+    width: 598
+    height: 656
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 23}
+  m_ActualView: {fileID: 21}
   m_Panes:
-  - {fileID: 23}
+  - {fileID: 21}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &13
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -321,9 +297,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
+  - {fileID: 13}
+  - {fileID: 10}
   - {fileID: 14}
-  - {fileID: 2}
-  - {fileID: 15}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -336,7 +312,7 @@ MonoBehaviour:
   m_TopViewHeight: 30
   m_UseBottomView: 1
   m_BottomViewHeight: 20
---- !u!114 &14
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -357,8 +333,8 @@ MonoBehaviour:
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
-  m_LastLoadedLayoutName: 
---- !u!114 &15
+  m_LastLoadedLayoutName: Biluca Game Focus
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -379,7 +355,7 @@ MonoBehaviour:
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &16
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -396,380 +372,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1315
-    height: 673
+    width: 1262
+    height: 674
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 26}
+  m_ActualView: {fileID: 24}
   m_Panes:
-  - {fileID: 26}
-  - {fileID: 25}
-  - {fileID: 17}
+  - {fileID: 24}
+  - {fileID: 23}
   m_Selected: 0
-  m_LastSelected: 2
---- !u!114 &17
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 139222468, guid: 8dc1be91775c4bb469f6b74cef450eaa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: NuGet
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 1440
-    y: 73
-    width: 1313
-    height: 652
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  hasRefreshed: 1
-  availablePackages:
-  - Id: Moq
-    Version: 4.18.2
-    Title: 'Moq: an enjoyable mocking library'
-    Description: 'Moq is the most popular and friendly mocking framework for .NET.
-
-
-      Built
-      from https://github.com/moq/moq4/tree/c60833da6'
-    Summary: 
-    ReleaseNotes: A changelog is available at https://github.com/moq/moq4/blob/main/CHANGELOG.md.
-    LicenseUrl: https://raw.githubusercontent.com/moq/moq4/main/License.txt
-    DownloadUrl: https://www.nuget.org/api/v2/package/Moq/4.18.2
-    DownloadCount: 346239140
-    Authors: Daniel Cazzulino, kzu
-    Icon: {fileID: 0}
-    ProjectUrl: https://github.com/moq/moq4
-    RepositoryUrl: 
-    RepositoryType: 0
-    RepositoryBranch: 
-    RepositoryCommit: 
-  - Id: AutoFixture.AutoMoq
-    Version: 4.17.0
-    Title: AutoFixture with Auto Mocking using Moq
-    Description: This extension turns AutoFixture into an Auto-Mocking Container.
-      The mock instances are created by Moq. To use it, add the AutoMoqCustomization
-      to your Fixture instance. Read more at http://blog.ploeh.dk/2010/08/19/AutoFixtureAsAnAutomockingContainer.aspx
-    Summary: 
-    ReleaseNotes: 
-    LicenseUrl: https://www.nuget.org/packages/AutoFixture.AutoMoq/4.17.0/license
-    DownloadUrl: https://www.nuget.org/api/v2/package/AutoFixture.AutoMoq/4.17.0
-    DownloadCount: 22967199
-    Authors: Mark Seemann, AutoFixture
-    Icon: {fileID: 0}
-    ProjectUrl: https://github.com/AutoFixture/AutoFixture
-    RepositoryUrl: 
-    RepositoryType: 0
-    RepositoryBranch: 
-    RepositoryCommit: 
-  - Id: Moq.AutoMock
-    Version: 3.4.0
-    Title: Moq.AutoMock
-    Description: An auto-mocking container that generates mocks using Moq
-    Summary: 
-    ReleaseNotes: 
-    LicenseUrl: https://www.nuget.org/packages/Moq.AutoMock/3.4.0/license
-    DownloadUrl: https://www.nuget.org/api/v2/package/Moq.AutoMock/3.4.0
-    DownloadCount: 6709873
-    Authors: Tim Kellogg, Adam Hewitt, Kevin Bost
-    Icon: {fileID: 0}
-    ProjectUrl: https://github.com/moq/Moq.AutoMocker
-    RepositoryUrl: 
-    RepositoryType: 0
-    RepositoryBranch: 
-    RepositoryCommit: 
-  - Id: Autofac.Extras.Moq
-    Version: 6.1.0
-    Title: Autofac.Extras.Moq
-    Description: Autofac extension for automocking and creation of mock objects in
-      Moq.
-    Summary: 
-    ReleaseNotes: Release notes are at https://github.com/autofac/Autofac.Extras.Moq/releases
-    LicenseUrl: https://www.nuget.org/packages/Autofac.Extras.Moq/6.1.0/license
-    DownloadUrl: https://www.nuget.org/api/v2/package/Autofac.Extras.Moq/6.1.0
-    DownloadCount: 6878988
-    Authors: Autofac Contributors
-    Icon: {fileID: 0}
-    ProjectUrl: https://autofac.org/
-    RepositoryUrl: 
-    RepositoryType: 0
-    RepositoryBranch: 
-    RepositoryCommit: 
-  - Id: Moq.Dapper
-    Version: 1.0.4
-    Title: Moq.Dapper
-    Description: Moq extensions for Dapper methods.
-    Summary: 
-    ReleaseNotes: Updates Dapper Dependency.
-    LicenseUrl: https://www.nuget.org/packages/Moq.Dapper/1.0.4/license
-    DownloadUrl: https://www.nuget.org/api/v2/package/Moq.Dapper/1.0.4
-    DownloadCount: 1765811
-    Authors: Stefano d'Antonio
-    Icon: {fileID: 0}
-    ProjectUrl: https://github.com/UnoSD/Moq.Dapper
-    RepositoryUrl: 
-    RepositoryType: 0
-    RepositoryBranch: 
-    RepositoryCommit: 
-  - Id: MockQueryable.Moq
-    Version: 6.0.1
-    Title: MockQueryable.Moq
-    Description: "Extension for mocking Entity Framework Core operations such ToListAsync,
-      FirstOrDefaultAsync etc.\n\t\t\tWhen writing tests for your application it
-      is often desirable to avoid hitting the database. The extension allows you
-      to achieve this by creating a context \u2013 with behavior defined by your
-      tests \u2013 that makes use of in-memory data."
-    Summary: 
-    ReleaseNotes: Fixed issue #58 ToListAsync() returns empty list after package
-      update to 6.0.0
-    LicenseUrl: https://www.nuget.org/packages/MockQueryable.Moq/6.0.1/license
-    DownloadUrl: https://www.nuget.org/api/v2/package/MockQueryable.Moq/6.0.1
-    DownloadCount: 4969424
-    Authors: Roman Titov
-    Icon: {fileID: 0}
-    ProjectUrl: https://github.com/romantitov/MockQueryable
-    RepositoryUrl: 
-    RepositoryType: 0
-    RepositoryBranch: 
-    RepositoryCommit: 
-  - Id: Moq.EntityFrameworkCore
-    Version: 6.0.1.4
-    Title: Moq.EntityFrameworkCore
-    Description: Library that provides methods that will help you with mocking Entity
-      Framework Core.
-    Summary: 
-    ReleaseNotes: 'Version 6.0.1.3
-
-      Added support for SetupGet'
-    LicenseUrl: https://www.nuget.org/packages/Moq.EntityFrameworkCore/6.0.1.4/license
-    DownloadUrl: https://www.nuget.org/api/v2/package/Moq.EntityFrameworkCore/6.0.1.4
-    DownloadCount: 1599757
-    Authors: "Micha\u0142 Jankowski"
-    Icon: {fileID: 0}
-    ProjectUrl: https://github.com/MichalJankowskii/Moq.EntityFrameworkCore
-    RepositoryUrl: 
-    RepositoryType: 0
-    RepositoryBranch: 
-    RepositoryCommit: 
-  - Id: Moq.Contrib.HttpClient
-    Version: 1.4.0
-    Title: Moq.Contrib.HttpClient
-    Description: A set of extension methods for mocking HttpClient and IHttpClientFactory
-      with Moq.
-    Summary: 
-    ReleaseNotes: https://github.com/maxkagamine/Moq.Contrib.HttpClient/releases
-    LicenseUrl: https://www.nuget.org/packages/Moq.Contrib.HttpClient/1.4.0/license
-    DownloadUrl: https://www.nuget.org/api/v2/package/Moq.Contrib.HttpClient/1.4.0
-    DownloadCount: 1246256
-    Authors: Max Kagamine
-    Icon: {fileID: 0}
-    ProjectUrl: https://github.com/maxkagamine/Moq.Contrib.HttpClient
-    RepositoryUrl: 
-    RepositoryType: 0
-    RepositoryBranch: 
-    RepositoryCommit: 
-  - Id: Moq.Analyzers
-    Version: 0.0.9
-    Title: Moq.Analyzers
-    Description: Roslyn analyzer that helps to write unit tests using Moq mocking
-      library by highlighting typical errors and suggesting quick fixes. Port of
-      Resharper extension to Roslyn. Find the full list of detected issues at project
-      GitHub page.
-    Summary: 
-    ReleaseNotes: 
-    LicenseUrl: https://github.com/Litee/moq.analyzers/blob/master/LICENSE
-    DownloadUrl: https://www.nuget.org/api/v2/package/Moq.Analyzers/0.0.9
-    DownloadCount: 625885
-    Authors: Andrey "Litee" Lipatkin
-    Icon: {fileID: 0}
-    ProjectUrl: https://github.com/Litee/moq.analyzers
-    RepositoryUrl: 
-    RepositoryType: 0
-    RepositoryBranch: 
-    RepositoryCommit: 
-  - Id: Ninject.MockingKernel.Moq
-    Version: 3.3.0
-    Title: Ninject.MockingKernel.Moq
-    Description: Automock implementation for Moq using Ninject to create the objects
-      under test.
-    Summary: 
-    ReleaseNotes: https://github.com/ninject/Ninject.MockingKernel/blob/master/CHANGELOG.md
-    LicenseUrl: https://github.com/ninject/Ninject.MockingKernel/raw/master/LICENSE.txt
-    DownloadUrl: https://www.nuget.org/api/v2/package/Ninject.MockingKernel.Moq/3.3.0
-    DownloadCount: 1393686
-    Authors: Ninject Project Contributors
-    Icon: {fileID: 0}
-    ProjectUrl: http://www.ninject.org/
-    RepositoryUrl: 
-    RepositoryType: 0
-    RepositoryBranch: 
-    RepositoryCommit: 
-  - Id: Moq.Sequences
-    Version: 2.2.1
-    Title: Moq.Sequences
-    Description: Supports checking that Moq setups are executed in sequence.
-    Summary: 
-    ReleaseNotes: Enabled SourceLink and added a symbols package.
-    LicenseUrl: https://www.nuget.org/packages/Moq.Sequences/2.2.1/license
-    DownloadUrl: https://www.nuget.org/api/v2/package/Moq.Sequences/2.2.1
-    DownloadCount: 497420
-    Authors: Declan Whelan
-    Icon: {fileID: 0}
-    ProjectUrl: https://github.com/dwhelan/Moq-Sequences
-    RepositoryUrl: 
-    RepositoryType: 0
-    RepositoryBranch: 
-    RepositoryCommit: 
-  - Id: AutoMoq
-    Version: 2.0.0
-    Title: AutoMoq
-    Description: Auto-mocking container
-    Summary: 
-    ReleaseNotes: Upgraded Unity to 4.
-    LicenseUrl: https://github.com/darrencauthon/AutoMoq/blob/master/license.txt
-    DownloadUrl: https://www.nuget.org/api/v2/package/AutoMoq/2.0.0
-    DownloadCount: 1221067
-    Authors: Darren Cauthon
-    Icon: {fileID: 0}
-    ProjectUrl: https://github.com/darrencauthon/AutoMoq
-    RepositoryUrl: 
-    RepositoryType: 0
-    RepositoryBranch: 
-    RepositoryCommit: 
-  - Id: Moq.Contrib
-    Version: 0.3
-    Title: Moq.Contrib
-    Description: Contributed features and third-party integration for Moq.
-    Summary: Contributed features and third-party integration for Moq.
-    ReleaseNotes: 
-    LicenseUrl: http://www.opensource.org/licenses/bsd-license.php
-    DownloadUrl: https://www.nuget.org/api/v2/package/Moq.Contrib/0.3.0
-    DownloadCount: 380584
-    Authors: kzu.net
-    Icon: {fileID: 0}
-    ProjectUrl: http://code.google.com/p/moq-contrib/
-    RepositoryUrl: 
-    RepositoryType: 0
-    RepositoryBranch: 
-    RepositoryCommit: 
-  - Id: EntityFrameworkTesting.Moq
-    Version: 1.3.0
-    Title: EntityFrameworkTesting.Moq
-    Description: Testing helpers for using Moq with EntityFramework.
-    Summary: 
-    ReleaseNotes: 
-    LicenseUrl: https://github.com/scott-xu/EntityFramework.Testing/blob/master/LICENSE
-    DownloadUrl: https://www.nuget.org/api/v2/package/EntityFrameworkTesting.Moq/1.3.0
-    DownloadCount: 951909
-    Authors: Rowan Miller, Scott Xu
-    Icon: {fileID: 0}
-    ProjectUrl: https://github.com/scott-xu/EntityFramework.Testing
-    RepositoryUrl: 
-    RepositoryType: 0
-    RepositoryBranch: 
-    RepositoryCommit: 
-  - Id: ILogger.Moq
-    Version: 1.1.10
-    Title: ILogger.Moq
-    Description: Enables the Moq's Verify API over the *ILogger* extensions (LogInformation,
-      LogError, etc).
-    Summary: 
-    ReleaseNotes: 
-    LicenseUrl: https://www.nuget.org/packages/ILogger.Moq/1.1.10/license
-    DownloadUrl: https://www.nuget.org/api/v2/package/ILogger.Moq/1.1.10
-    DownloadCount: 515980
-    Authors: Adrian Iftode
-    Icon: {fileID: 0}
-    ProjectUrl: https://github.com/adrianiftode/Moq.ILogger
-    RepositoryUrl: 
-    RepositoryType: 0
-    RepositoryBranch: 
-    RepositoryCommit: 
-  updatePackages:
-  - Id: Microsoft.Bcl.AsyncInterfaces
-    Version: 6.0.0
-    Title: Microsoft.Bcl.AsyncInterfaces
-    Description: 'Provides the IAsyncEnumerable<T> and IAsyncDisposable interfaces
-      and helper types for .NET Standard 2.0. This package is not required starting
-      with .NET Standard 2.1 and .NET Core 3.0.
-
-
-      Commonly Used Types:
-
-      System.IAsyncDisposable
-
-      System.Collections.Generic.IAsyncEnumerable
-
-      System.Collections.Generic.IAsyncEnumerator'
-    Summary: 
-    ReleaseNotes: https://go.microsoft.com/fwlink/?LinkID=799421
-    LicenseUrl: https://licenses.nuget.org/MIT
-    DownloadUrl: https://www.nuget.org/api/v2/package/Microsoft.Bcl.AsyncInterfaces/6.0.0
-    DownloadCount: 588951351
-    Authors: Microsoft
-    Icon: {fileID: 0}
-    ProjectUrl: https://dot.net/
-    RepositoryUrl: 
-    RepositoryType: 0
-    RepositoryBranch: 
-    RepositoryCommit: 
-  - Id: Microsoft.Bcl.HashCode
-    Version: 1.1.1
-    Title: Microsoft.Bcl.HashCode
-    Description: "Provides the HashCode type for .NET Standard 2.0. This package
-      is not required starting with .NET Standard 2.1 and .NET Core 3.0.\n\nCommonly
-      Used Types:\nSystem.HashCode\n \nWhen using NuGet 3.x this package requires
-      at least version 3.4."
-    Summary: 
-    ReleaseNotes: https://go.microsoft.com/fwlink/?LinkID=799421
-    LicenseUrl: https://licenses.nuget.org/MIT
-    DownloadUrl: https://www.nuget.org/api/v2/package/Microsoft.Bcl.HashCode/1.1.1
-    DownloadCount: 138932680
-    Authors: Microsoft
-    Icon: {fileID: 0}
-    ProjectUrl: https://github.com/dotnet/corefx
-    RepositoryUrl: 
-    RepositoryType: 0
-    RepositoryBranch: 
-    RepositoryCommit: 
-  - Id: System.Diagnostics.EventLog
-    Version: 6.0.0
-    Title: System.Diagnostics.EventLog
-    Description: 'Provides the System.Diagnostics.EventLog class, which allows the
-      applications to use the windows event log service.
-
-
-      Commonly Used Types:
-
-      System.Diagnostics.EventLog'
-    Summary: 
-    ReleaseNotes: https://go.microsoft.com/fwlink/?LinkID=799421
-    LicenseUrl: https://licenses.nuget.org/MIT
-    DownloadUrl: https://www.nuget.org/api/v2/package/System.Diagnostics.EventLog/6.0.0
-    DownloadCount: 202181311
-    Authors: Microsoft
-    Icon: {fileID: 0}
-    ProjectUrl: https://dot.net/
-    RepositoryUrl: 
-    RepositoryType: 0
-    RepositoryBranch: 
-    RepositoryCommit: 
-  numberToSkip: 0
-  defaultIcon: {fileID: 2800000, guid: eec19781926cd2248b7c9abfde8db555, type: 3}
---- !u!114 &18
+  m_LastSelected: 1
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -800,8 +413,8 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 34644
---- !u!114 &19
+  m_LastSelectedObjectID: 31506
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -868,7 +481,7 @@ MonoBehaviour:
   m_CurrentEditor: 1
   m_LayerEditor:
     m_SelectedLayerIndex: 0
---- !u!114 &20
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -888,21 +501,21 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 3070
-    y: 619
-    width: 569
-    height: 420
+    x: 3042
+    y: 729
+    width: 597
+    height: 310
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_Spl:
-    ID: 823
+    ID: 11129
     splitterInitialOffset: 0
     currentActiveSplitter: -1
     realSizes:
-    - 268
-    - 89
+    - 185
+    - 62
     relativeSizes:
     - 0.75
     - 0.25
@@ -912,7 +525,7 @@ MonoBehaviour:
     maxSizes:
     - 0
     - 0
-    lastTotalSize: 357
+    lastTotalSize: 247
     splitSize: 6
     xOffset: 0
     m_Version: 1
@@ -920,7 +533,7 @@ MonoBehaviour:
     oldMinSizes: 
     oldMaxSizes: 
     oldSplitSize: 0
---- !u!114 &21
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -941,9 +554,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2755
+    x: 2702
     y: 731
-    width: 313
+    width: 338
     height: 308
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -962,22 +575,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/UnityFoundation/Systems/CharacterSystems/ThirdPersonCharacter/InputSystem
+    - Assets/UnityFoundation/UI/Components/HUD/InputsView
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 69
   m_LastFolders:
-  - Assets/UnityFoundation/Systems/CharacterSystems/ThirdPersonCharacter/InputSystem
+  - Assets/UnityFoundation/UI/Components/HUD/InputsView
   m_LastFoldersGridSize: 69
-  m_LastProjectPath: C:\biluca-projs\UnityFoundationSamples
+  m_LastProjectPath: C:\biluca-projs\unity-foundation-samples
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 160}
-    m_SelectedIDs: da740000
-    m_LastClickedID: 29914
-    m_ExpandedIDs: 00000000b06c0000b26c0000ba6c0000ae740000b4740000c0740000c6740000
+    scrollPos: {x: 0, y: 640}
+    m_SelectedIDs: 9c800000
+    m_LastClickedID: 32924
+    m_ExpandedIDs: 00000000f06f0000f26f0000f46f0000f66f0000f86f0000fa6f00000070000028700000327000004470000062700000647000006072000084720000dc7c000098800000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1005,7 +618,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000
+    m_ExpandedIDs: 00000000f06f0000f26f0000f46f0000f66f0000f86f0000fa6f00002870000032700000447000006470000060720000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1032,8 +645,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: ce0b0100
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: ce0b01007a85000094870000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1061,7 +674,7 @@ MonoBehaviour:
     m_GridSize: 69
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 50
---- !u!114 &22
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1082,9 +695,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2755
+    x: 2702
     y: 73
-    width: 313
+    width: 338
     height: 637
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -1102,22 +715,21 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders:
-    - Assets/UnityFoundation/Systems/CharacterSystems/ThirdPersonCharacter/InputSystem
+    m_Folders: []
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\biluca-projs\UnityFoundationSamples
+  m_LastProjectPath: C:\biluca-projs\unity-foundation-samples
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 7c860000
     m_LastClickedID: 34428
-    m_ExpandedIDs: 00000000
+    m_ExpandedIDs: 00000000f06f0000f26f0000f46f0000f66f0000f86f0000fa6f00002870000032700000447000006470000060720000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1142,26 +754,26 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 0}
+    scrollPos: {x: 0, y: 65}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000b06c0000b46c0000ba6c0000ae740000b4740000c0740000c6740000ca740000ce740000da740000de7400000e750000
+    m_ExpandedIDs: ffffffff00000000f26f0000f66f0000f86f0000fa6f00000070000044700000627000006072000084720000dc7c00009c800000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Simple2DCharacter
-      m_OriginalName: Simple2DCharacter
+      m_Name: inputs_view
+      m_OriginalName: inputs_view
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 29892
+      m_UserData: 32980
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 10}
+      m_ClientGUIView: {fileID: 9}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -1201,7 +813,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 149
---- !u!114 &23
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1222,10 +834,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 3070
+    x: 3042
     y: 73
-    width: 569
-    height: 525
+    width: 597
+    height: 635
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1243,7 +855,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &24
+--- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1275,9 +887,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e6740000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 00b5ffff34b5ffff04c3ffff34c7ffffaafaffff
+      m_ExpandedIDs: 0249f9ff42ebf9ff0c5cfafffc73faff6a52fcff726dfcff626efcff326ffcffc88cfcffb4b6fcffd6c3fcff62c8fcffd4b9fdff6ebcfdff9cc0fdffc279ffff82e3fffff2faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1293,7 +905,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 5}
+        m_ClientGUIView: {fileID: 4}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -1301,7 +913,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &25
+--- !u!114 &23
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1324,7 +936,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1440
     y: 73
-    width: 1313
+    width: 1260
     height: 653
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -1522,14 +1134,14 @@ MonoBehaviour:
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
   m_SceneLighting: 1
-  m_2DMode: 0
+  m_2DMode: 1
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: 957.72626, y: 592.5874, z: 2.2072442}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: 957.72626, y: 592.5874, z: 2.2072442}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1566,27 +1178,27 @@ MonoBehaviour:
       m_Size: {x: 1, y: 1}
     zGrid:
       m_Fade:
-        m_Target: 1
+        m_Target: 0
         speed: 2
-        m_Value: 1
+        m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
-    m_ShowGrid: 1
+    m_ShowGrid: 0
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 10
+    m_Target: 152.37886
     speed: 2
-    m_Value: 10
+    m_Value: 152.37886
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_CameraSettings:
     m_Speed: 1
     m_SpeedNormalized: 0.5
@@ -1600,14 +1212,14 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewRotation: {x: -0.045897778, y: -0.19443886, z: 0.009108545, w: -0.9797997}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &26
+--- !u!114 &24
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1630,8 +1242,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1440
     y: 73
-    width: 1313
-    height: 652
+    width: 1260
+    height: 653
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1678,29 +1290,29 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1313
-      height: 631
-    m_Scale: {x: 0.8216145, y: 0.82161456}
-    m_Translation: {x: 656.5, y: 315.5}
+      width: 1260
+      height: 632
+    m_Scale: {x: 0.8229167, y: 0.8229167}
+    m_Translation: {x: 630, y: 316}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -799.0365
+      x: -765.5696
       y: -384
-      width: 1598.073
+      width: 1531.1392
       height: 768
     m_MinimalGUI: 1
-  m_defaultScale: 0.82161456
-  m_LastWindowPixelSize: {x: 1313, y: 652}
+  m_defaultScale: 0.8229167
+  m_LastWindowPixelSize: {x: 1260, y: 653}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &27
+--- !u!114 &25
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1722,9 +1334,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 1440
-    y: 746
-    width: 1313
-    height: 293
+    y: 747
+    width: 1260
+    height: 292
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
