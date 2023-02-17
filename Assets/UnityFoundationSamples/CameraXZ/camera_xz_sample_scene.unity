@@ -971,6 +971,7 @@ MonoBehaviour:
     type: 3}
   m_DeselectOnBackgroundClick: 1
   m_PointerBehavior: 0
+  m_CursorLockBehavior: 0
 --- !u!1 &961739749
 GameObject:
   m_ObjectHideFlags: 0
@@ -1102,21 +1103,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ff9dffdcc0ab24ebf91a4f6fdd2aed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraSpeed: 20
-  moveLimitsX:
-    start: -20
-    end: 20
-  moveLimitsY:
-    start: 2
-    end: 12
-  moveLimitsZ:
-    start: -20
-    end: 20
-  enableEdgeMovement: 0
-  edgeOffset: 10
-  enableZoom: 1
-  zoomAmount: 2
-  zoomSpeed: 5
+  Settings: {fileID: 11400000, guid: 44c1912a89cdf864e83d74a039f04599, type: 2}
+  cameraTarget: {fileID: 0}
 --- !u!1 &1083217406
 GameObject:
   m_ObjectHideFlags: 0
