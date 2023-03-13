@@ -671,13 +671,49 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: e93d2aa3cf41951409d92f439c724d36,
         type: 2}
+    - target: {fileID: 8531581766805672968, guid: ae72e1052012d2546a863104f7ccc752,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8531581766805672975, guid: ae72e1052012d2546a863104f7ccc752,
         type: 3}
       propertyPath: aimCamera
       value: 
       objectReference: {fileID: 1932157012}
+    - target: {fileID: 8531581766805672975, guid: ae72e1052012d2546a863104f7ccc752,
+        type: 3}
+      propertyPath: <Config>k__BackingField
+      value: 
+      objectReference: {fileID: 11400000, guid: 7442c0c5b6d8c134bbd0428165ee6bdd,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae72e1052012d2546a863104f7ccc752, type: 3}
+--- !u!1 &1314531392 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5416236835389593479, guid: ae72e1052012d2546a863104f7ccc752,
+    type: 3}
+  m_PrefabInstance: {fileID: 1314531391}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1314531393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314531392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9581ff3c1fcbc37458c601de7a2a5b86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyOnLoad: 1
+  <Config>k__BackingField:
+    <ObjectPrefab>k__BackingField: {fileID: 6532537761344339805, guid: 0b87d2b686371fc46bbfd3c0fdb6d5c5,
+      type: 3}
+    <PoolSize>k__BackingField: 1
+    <CanGrown>k__BackingField: 0
+    <ActiveTimeout>k__BackingField: 1
 --- !u!1 &1554222482
 GameObject:
   m_ObjectHideFlags: 0
