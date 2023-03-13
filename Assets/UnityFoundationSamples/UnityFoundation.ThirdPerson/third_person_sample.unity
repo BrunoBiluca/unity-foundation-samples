@@ -665,12 +665,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: player
       objectReference: {fileID: 0}
+    - target: {fileID: 5416236835389593483, guid: ae72e1052012d2546a863104f7ccc752,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5416236835389593484, guid: ae72e1052012d2546a863104f7ccc752,
         type: 3}
       propertyPath: config
       value: 
       objectReference: {fileID: 11400000, guid: e93d2aa3cf41951409d92f439c724d36,
         type: 2}
+    - target: {fileID: 5416236835389593485, guid: ae72e1052012d2546a863104f7ccc752,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8531581766805672968, guid: ae72e1052012d2546a863104f7ccc752,
         type: 3}
       propertyPath: m_Enabled
@@ -687,7 +697,8 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 7442c0c5b6d8c134bbd0428165ee6bdd,
         type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8531581766805672968, guid: ae72e1052012d2546a863104f7ccc752, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ae72e1052012d2546a863104f7ccc752, type: 3}
 --- !u!1 &1314531392 stripped
 GameObject:
@@ -711,7 +722,7 @@ MonoBehaviour:
   <Config>k__BackingField:
     <ObjectPrefab>k__BackingField: {fileID: 6532537761344339805, guid: 0b87d2b686371fc46bbfd3c0fdb6d5c5,
       type: 3}
-    <PoolSize>k__BackingField: 1
+    <PoolSize>k__BackingField: 5
     <CanGrown>k__BackingField: 0
     <ActiveTimeout>k__BackingField: 1
 --- !u!1 &1554222482
