@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 2752
     height: 1108.8
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Project
   m_RootView: {fileID: 16}
-  m_MinSize: {x: 875, y: 321}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -45,7 +45,7 @@ MonoBehaviour:
   m_ShowMode: 0
   m_Title: Test Runner
   m_RootView: {fileID: 8}
-  m_MinSize: {x: 100, y: 100}
+  m_MinSize: {x: 100, y: 50}
   m_MaxSize: {x: 8096, y: 8096}
   m_Maximized: 0
 --- !u!114 &3
@@ -69,9 +69,9 @@ MonoBehaviour:
     height: 346.80005
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 30}
+  m_ActualView: {fileID: 29}
   m_Panes:
-  - {fileID: 30}
+  - {fileID: 29}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &4
@@ -95,10 +95,10 @@ MonoBehaviour:
     y: 712
     width: 1848
     height: 346.80005
-  m_MinSize: {x: 200, y: 100}
+  m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 161
+  controlID: 1158
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -109,21 +109,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
+  m_Name: NugetWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 927.2
+    x: 927
     y: 0
-    width: 920.8
+    width: 921
     height: 712
-  m_MinSize: {x: 202, y: 221}
+  m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 31}
+  m_ActualView: {fileID: 20}
   m_Panes:
-  - {fileID: 31}
-  m_Selected: 0
+  - {fileID: 30}
+  - {fileID: 20}
+  m_Selected: 1
   m_LastSelected: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -146,10 +147,10 @@ MonoBehaviour:
     y: 0
     width: 1848
     height: 712
-  m_MinSize: {x: 200, y: 100}
+  m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 246
+  controlID: 1087
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,14 +170,13 @@ MonoBehaviour:
     y: 0
     width: 1063
     height: 901
-  m_MinSize: {x: 101, y: 123}
-  m_MaxSize: {x: 4001, y: 4023}
-  m_ActualView: {fileID: 26}
+  m_MinSize: {x: 100, y: 121}
+  m_MaxSize: {x: 4000, y: 4021}
+  m_ActualView: {fileID: 25}
   m_Panes:
-  - {fileID: 26}
-  - {fileID: 20}
-  - {fileID: 23}
+  - {fileID: 25}
   - {fileID: 22}
+  - {fileID: 21}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &8
@@ -199,10 +199,10 @@ MonoBehaviour:
     y: 0
     width: 1063
     height: 901
-  m_MinSize: {x: 100, y: 100}
+  m_MinSize: {x: 100, y: 50}
   m_MaxSize: {x: 8096, y: 8096}
   vertical: 1
-  controlID: 120
+  controlID: 1285
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -222,11 +222,11 @@ MonoBehaviour:
     y: 0
     width: 509.6001
     height: 1058.8
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 29}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 28}
   m_Panes:
-  - {fileID: 29}
+  - {fileID: 28}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &10
@@ -250,12 +250,11 @@ MonoBehaviour:
     height: 346.80005
   m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 33}
+  m_ActualView: {fileID: 32}
   m_Panes:
-  - {fileID: 33}
-  - {fileID: 25}
+  - {fileID: 32}
   - {fileID: 24}
-  - {fileID: 21}
+  - {fileID: 23}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &11
@@ -279,10 +278,10 @@ MonoBehaviour:
     y: 0
     width: 1848
     height: 1058.8
-  m_MinSize: {x: 200, y: 200}
+  m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 160
+  controlID: 1086
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -304,9 +303,9 @@ MonoBehaviour:
     height: 386.00006
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
-  m_ActualView: {fileID: 27}
+  m_ActualView: {fileID: 26}
   m_Panes:
-  - {fileID: 27}
+  - {fileID: 26}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &13
@@ -330,10 +329,10 @@ MonoBehaviour:
     y: 0
     width: 394.3999
     height: 1058.8
-  m_MinSize: {x: 100, y: 200}
+  m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 23
+  controlID: 1178
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -355,9 +354,9 @@ MonoBehaviour:
     height: 672.8
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
-  m_ActualView: {fileID: 28}
+  m_ActualView: {fileID: 27}
   m_Panes:
-  - {fileID: 28}
+  - {fileID: 27}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &15
@@ -382,10 +381,10 @@ MonoBehaviour:
     y: 30
     width: 2752
     height: 1058.8
-  m_MinSize: {x: 400, y: 200}
+  m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 154
+  controlID: 1085
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -474,13 +473,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 927.2
+    width: 927
     height: 712
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 32}
+  m_ActualView: {fileID: 31}
   m_Panes:
-  - {fileID: 32}
+  - {fileID: 31}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &20
@@ -492,25 +491,408 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5115ff20f1ea204dac14fa49c0e8f69, type: 3}
+  m_Script: {fileID: 139222468, guid: 8dc1be91775c4bb469f6b74cef450eaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 445, y: 385}
+  m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Code Coverage
+    m_Text: NuGet
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 7
-    y: 963
-    width: 1063
-    height: 880
+    x: 2007.8
+    y: 361.6
+    width: 919
+    height: 691
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
+    m_OverlaysVisible: 1
+  hasRefreshed: 1
+  availablePackages:
+  - Id: CsvHelper
+    Version: 30.0.1
+    Title: CsvHelper
+    Description: A library for reading and writing CSV files. Extremely fast, flexible,
+      and easy to use. Supports reading and writing of custom class objects.
+    Summary: 
+    ReleaseNotes: https://joshclose.github.io/CsvHelper/change-log
+    LicenseUrl: https://www.nuget.org/packages/CsvHelper/30.0.1/license
+    DownloadUrl: https://www.nuget.org/api/v2/package/CsvHelper/30.0.1
+    DownloadCount: 143568536
+    Authors: Josh Close
+    Icon: {fileID: 0}
+    ProjectUrl: https://joshclose.github.io/CsvHelper/
+    RepositoryUrl: 
+    RepositoryType: 0
+    RepositoryBranch: 
+    RepositoryCommit: 
+  - Id: CsvHelper.Excel.Core
+    Version: 27.2.1
+    Title: CsvHelper.Excel.Core
+    Description: An implementation of ICsvParser and ICsvSerializer from CsvHelper
+      that reads and writes using the ClosedXml library.
+    Summary: 
+    ReleaseNotes: 
+    LicenseUrl: https://github.com/youngcm2/CsvHelper.Excel/blob/master/LICENSE
+    DownloadUrl: https://www.nuget.org/api/v2/package/CsvHelper.Excel.Core/27.2.1
+    DownloadCount: 411029
+    Authors: Chris Young
+    Icon: {fileID: 0}
+    ProjectUrl: https://github.com/youngcm2/CsvHelper.Excel
+    RepositoryUrl: 
+    RepositoryType: 0
+    RepositoryBranch: 
+    RepositoryCommit: 
+  - Id: CsvHelper.Excel
+    Version: 1.0.6
+    Title: CsvHelper.Excel
+    Description: An implementation of ICsvParser and ICsvSerializer from CsvHelper
+      that reads and writes using the ClosedXml library.
+    Summary: 
+    ReleaseNotes: 
+    LicenseUrl: https://github.com/christophano/CsvHelper.Excel/blob/master/LICENSE
+    DownloadUrl: https://www.nuget.org/api/v2/package/CsvHelper.Excel/1.0.6
+    DownloadCount: 358678
+    Authors: Chris Rodgers
+    Icon: {fileID: 0}
+    ProjectUrl: https://github.com/christophano/CsvHelper.Excel
+    RepositoryUrl: 
+    RepositoryType: 0
+    RepositoryBranch: 
+    RepositoryCommit: 
+  - Id: CsvHelper.Excel.Core2
+    Version: 26.0.2
+    Title: CsvHelper.Excel.Core2
+    Description: An implementation of ICsvParser and ICsvSerializer from CsvHelper
+      that reads and writes using the ClosedXml library.
+    Summary: 
+    ReleaseNotes: 
+    LicenseUrl: https://github.com/youngcm2/CsvHelper.Excel/blob/master/LICENSE
+    DownloadUrl: https://www.nuget.org/api/v2/package/CsvHelper.Excel.Core2/26.0.2
+    DownloadCount: 107149
+    Authors: pedoc
+    Icon: {fileID: 0}
+    ProjectUrl: https://github.com/youngcm2/CsvHelper.Excel
+    RepositoryUrl: 
+    RepositoryType: 0
+    RepositoryBranch: 
+    RepositoryCommit: 
+  - Id: CsvHelper.Fluent
+    Version: 0.1.4
+    Title: CsvHelper Fluent Extensions
+    Description: CsvHelper Extensions to quickly read and write Excel-Compatible
+      csv Files
+    Summary: 
+    ReleaseNotes: 
+    LicenseUrl: https://github.com/piccaso/csvhelper-fluent/blob/master/license.txt
+    DownloadUrl: https://www.nuget.org/api/v2/package/CsvHelper.Fluent/0.1.4
+    DownloadCount: 39459
+    Authors: CsvHelper.Fluent
+    Icon: {fileID: 0}
+    ProjectUrl: https://github.com/piccaso/csvhelper-fluent/
+    RepositoryUrl: 
+    RepositoryType: 0
+    RepositoryBranch: 
+    RepositoryCommit: 
+  - Id: CsvHelper.FastDynamic
+    Version: 1.4.0
+    Title: CsvHelper.FastDynamic
+    Description: Fast dynamic records reader and writer extensions for CsvHelper
+    Summary: 
+    ReleaseNotes: https://github.com/shibayan/CsvHelper.FastDynamic/releases
+    LicenseUrl: https://www.nuget.org/packages/CsvHelper.FastDynamic/1.4.0/license
+    DownloadUrl: https://www.nuget.org/api/v2/package/CsvHelper.FastDynamic/1.4.0
+    DownloadCount: 26706
+    Authors: shibayan
+    Icon: {fileID: 0}
+    ProjectUrl: 
+    RepositoryUrl: 
+    RepositoryType: 0
+    RepositoryBranch: 
+    RepositoryCommit: 
+  - Id: Cake.CsvHelper
+    Version: 0.3.1
+    Title: Cake.CsvHelper
+    Description: Cake Addin for working with CSV files using the CSVHelper library.
+    Summary: A set of aliases for Cake to help with running Gulp scripts as part
+      of a build.
+    ReleaseNotes: 
+    LicenseUrl: https://github.com/cake-contrib/Cake.CsvHelper/blob/master/LICENSE
+    DownloadUrl: https://www.nuget.org/api/v2/package/Cake.CsvHelper/0.3.1
+    DownloadCount: 15007
+    Authors: cphill11 augustoproiete
+    Icon: {fileID: 0}
+    ProjectUrl: https://github.com/cake-contrib/Cake.CsvHelper
+    RepositoryUrl: 
+    RepositoryType: 0
+    RepositoryBranch: 
+    RepositoryCommit: 
+  - Id: NReco.Csv
+    Version: 1.0.1
+    Title: Fast C# CSV parser
+    Description: Fast C# CSV parser (stream reader, writer) for .NET Core.
+    Summary: 
+    ReleaseNotes: "How to use:\n\n// parse CSV \t\nusing (var streamRdr = new StreamReader(inputStream))
+      {\n  var csvReader = new CsvReader(streamRdr, \",\");\n  while (csvReader.Read())
+      {\n    for (int i=0; i<csvReader.FieldsCount; i++) {\n\t  string val = csvReader[i];\n   
+      }\n  }\n}\n\n// generate CSV\nusing (var streamWr = new StreamWrite(outputStream))
+      {\n  var csvWriter = new CsvWriter(streamWr);\n  // write line\n  csvWriter.WriteField(\"Value
+      with double quote\\\"\");\n  csvWriter.WriteField(\"And with\\nnew line\");\n 
+      csvWriter.WriteField(\"Normal\");\n  csvWriter.NextRecord();\n}"
+    LicenseUrl: https://raw.githubusercontent.com/nreco/csv/master/LICENSE
+    DownloadUrl: https://www.nuget.org/api/v2/package/NReco.Csv/1.0.1
+    DownloadCount: 289085
+    Authors: Vitalii Fedorchenko
+    Icon: {fileID: 0}
+    ProjectUrl: https://github.com/nreco/csv
+    RepositoryUrl: 
+    RepositoryType: 0
+    RepositoryBranch: 
+    RepositoryCommit: 
+  - Id: Shos.CsvHelper
+    Version: 1.0.0.2
+    Title: Shos.CsvHelper
+    Description: 'Csv (comma-separated values) Library (.NET Standard Library)
+
+
+      A
+      library for reading objects from CSV files and writing objects to CSV files.
+
+      (for
+      .NET Network 4.6 or later, .NET Core 1.1 or later)'
+    Summary: 
+    ReleaseNotes: 
+    LicenseUrl: https://www.nuget.org/packages/Shos.CsvHelper/1.0.0.2/license
+    DownloadUrl: https://www.nuget.org/api/v2/package/Shos.CsvHelper/1.0.0.2
+    DownloadCount: 11809
+    Authors: Fujio Kojima
+    Icon: {fileID: 0}
+    ProjectUrl: https://github.com/Fujiwo/Shos.CsvHelper/
+    RepositoryUrl: 
+    RepositoryType: 0
+    RepositoryBranch: 
+    RepositoryCommit: 
+  - Id: Shos.CsvHelper.NetFramework
+    Version: 0.1.1.2
+    Title: Shos.CsvHelper.NetFramework
+    Description: "Csv (comma-separated values) Library (.NET Framework Library)\n\n     
+      A library for reading objects from CSV files and writing objects to CSV files.\n     
+      (.NET Framework 4.5.2 or later)"
+    Summary: 
+    ReleaseNotes: https://www.nuget.org/packages/Shos.CsvHelper.NetFramework/#change-log
+    LicenseUrl: https://github.com/Fujiwo/Shos.CsvHelper/blob/master/license
+    DownloadUrl: https://www.nuget.org/api/v2/package/Shos.CsvHelper.NetFramework/0.1.1.2
+    DownloadCount: 11058
+    Authors: Fujio Kojima
+    Icon: {fileID: 0}
+    ProjectUrl: https://github.com/Fujiwo/Shos.CsvHelper/
+    RepositoryUrl: 
+    RepositoryType: 0
+    RepositoryBranch: 
+    RepositoryCommit: 
+  - Id: Arex388.Extensions.CsvHelper
+    Version: 1.0.13
+    Title: Arex388.Extensions.CsvHelper
+    Description: CsvHelper extensions for implementing a pseudo-database context
+      backed by CSV files.
+    Summary: 
+    ReleaseNotes: 
+    LicenseUrl: 
+    DownloadUrl: https://www.nuget.org/api/v2/package/Arex388.Extensions.CsvHelper/1.0.13
+    DownloadCount: 4553
+    Authors: Arex388.Extensions.CsvHelper
+    Icon: {fileID: 0}
+    ProjectUrl: https://github.com/arex388/Arex388.Extensions.CsvHelper
+    RepositoryUrl: 
+    RepositoryType: 0
+    RepositoryBranch: 
+    RepositoryCommit: 
+  - Id: CsvHelper.Excel.EPPlus
+    Version: 30.1.0
+    Title: CsvHelper.Excel.EPPlus
+    Description: An implementation of IParser and IWriter from CsvHelper that reads
+      and writes using the latest EPPlus library.
+    Summary: 
+    ReleaseNotes: 
+    LicenseUrl: https://www.nuget.org/packages/CsvHelper.Excel.EPPlus/30.1.0/license
+    DownloadUrl: https://www.nuget.org/api/v2/package/CsvHelper.Excel.EPPlus/30.1.0
+    DownloadCount: 4570
+    Authors: Michael Monsour, Chris Young, Chris Rodgers
+    Icon: {fileID: 0}
+    ProjectUrl: https://github.com/lethek/CsvHelper.Excel.EPPlus
+    RepositoryUrl: 
+    RepositoryType: 0
+    RepositoryBranch: 
+    RepositoryCommit: 
+  - Id: DSharp.CsvHelper
+    Version: 2.0.2
+    Title: DSharp.CsvHelper
+    Description: "DSharp CSV Helper\n      With this package you can write attributes
+      above your class like:\n\n      [CsvDelimiter(\"|\")]\n\n      and above fields:\n     
+      [CsvFormat(\"yyyyMMdd\")]\n      [CsvLength(8)]\n      [CsvFormat(\"0.00\")]\n     
+      [CsvIgnore]\n\n      Afterwards you can write it:\n\n      var writer = new
+      CsvWriter<MyObject>(@\"c:\\export.csv\");\n      //writer.Definition.WriteHeader
+      = false;\n      writer.Write(list);"
+    Summary: 
+    ReleaseNotes: Made ready for .net standard
+    LicenseUrl: https://www.nuget.org/packages/DSharp.CsvHelper/2.0.2/license
+    DownloadUrl: https://www.nuget.org/api/v2/package/DSharp.CsvHelper/2.0.2
+    DownloadCount: 8427
+    Authors: Erwin Bakels
+    Icon: {fileID: 0}
+    ProjectUrl: 
+    RepositoryUrl: 
+    RepositoryType: 0
+    RepositoryBranch: 
+    RepositoryCommit: 
+  - Id: Optivem.Framework.Infrastructure.CsvHelper
+    Version: 1.0.23
+    Title: Optivem.Framework.Infrastructure.CsvHelper
+    Description: Implementation for CSV Serialization using CsvHelper
+    Summary: 
+    ReleaseNotes: 
+    LicenseUrl: 
+    DownloadUrl: https://www.nuget.org/api/v2/package/Optivem.Framework.Infrastructure.CsvHelper/1.0.23
+    DownloadCount: 6092
+    Authors: Optivem
+    Icon: {fileID: 0}
+    ProjectUrl: https://opensource.optivem.com/framework-dotnetcore
+    RepositoryUrl: 
+    RepositoryType: 0
+    RepositoryBranch: 
+    RepositoryCommit: 
+  - Id: Atomiv.Infrastructure.CsvHelper
+    Version: 6.0.0
+    Title: Atomiv.Infrastructure.CsvHelper
+    Description: Implementation for CSV Serialization using CsvHelper
+    Summary: 
+    ReleaseNotes: 
+    LicenseUrl: 
+    DownloadUrl: https://www.nuget.org/api/v2/package/Atomiv.Infrastructure.CsvHelper/6.0.0
+    DownloadCount: 4377
+    Authors: Atomiv
+    Icon: {fileID: 0}
+    ProjectUrl: https://atomiv.com/
+    RepositoryUrl: 
+    RepositoryType: 0
+    RepositoryBranch: 
+    RepositoryCommit: 
+  updatePackages:
+  - Id: Castle.Core
+    Version: 5.1.1
+    Title: Castle.Core
+    Description: Castle Core, including DynamicProxy, Logging Abstractions and DictionaryAdapter
+    Summary: 
+    ReleaseNotes: 
+    LicenseUrl: https://licenses.nuget.org/Apache-2.0
+    DownloadUrl: https://www.nuget.org/api/v2/package/Castle.Core/5.1.1
+    DownloadCount: 565403954
+    Authors: Castle Project Contributors
+    Icon: {fileID: 0}
+    ProjectUrl: http://www.castleproject.org/
+    RepositoryUrl: 
+    RepositoryType: 0
+    RepositoryBranch: 
+    RepositoryCommit: 
+  - Id: Microsoft.Bcl.AsyncInterfaces
+    Version: 7.0.0
+    Title: Microsoft.Bcl.AsyncInterfaces
+    Description: 'Provides the IAsyncEnumerable<T> and IAsyncDisposable interfaces
+      and helper types for .NET Standard 2.0. This package is not required starting
+      with .NET Standard 2.1 and .NET Core 3.0.
+
+
+      Commonly Used Types:
+
+      System.IAsyncDisposable
+
+      System.Collections.Generic.IAsyncEnumerable
+
+      System.Collections.Generic.IAsyncEnumerator'
+    Summary: 
+    ReleaseNotes: https://go.microsoft.com/fwlink/?LinkID=799421
+    LicenseUrl: https://licenses.nuget.org/MIT
+    DownloadUrl: https://www.nuget.org/api/v2/package/Microsoft.Bcl.AsyncInterfaces/7.0.0
+    DownloadCount: 874064826
+    Authors: Microsoft
+    Icon: {fileID: 0}
+    ProjectUrl: https://dot.net/
+    RepositoryUrl: 
+    RepositoryType: 0
+    RepositoryBranch: 
+    RepositoryCommit: 
+  - Id: Microsoft.Bcl.HashCode
+    Version: 1.1.1
+    Title: Microsoft.Bcl.HashCode
+    Description: "Provides the HashCode type for .NET Standard 2.0. This package
+      is not required starting with .NET Standard 2.1 and .NET Core 3.0.\n\nCommonly
+      Used Types:\nSystem.HashCode\n \nWhen using NuGet 3.x this package requires
+      at least version 3.4."
+    Summary: 
+    ReleaseNotes: https://go.microsoft.com/fwlink/?LinkID=799421
+    LicenseUrl: https://licenses.nuget.org/MIT
+    DownloadUrl: https://www.nuget.org/api/v2/package/Microsoft.Bcl.HashCode/1.1.1
+    DownloadCount: 173509180
+    Authors: Microsoft
+    Icon: {fileID: 0}
+    ProjectUrl: https://github.com/dotnet/corefx
+    RepositoryUrl: 
+    RepositoryType: 0
+    RepositoryBranch: 
+    RepositoryCommit: 
+  - Id: Moq
+    Version: 4.18.4
+    Title: 'Moq: an enjoyable mocking library'
+    Description: 'Moq is the most popular and friendly mocking framework for .NET.
+
+
+      Built
+      from https://github.com/moq/moq4/tree/042a2ebbe'
+    Summary: 
+    ReleaseNotes: A changelog is available at https://github.com/moq/moq4/blob/main/CHANGELOG.md.
+    LicenseUrl: https://raw.githubusercontent.com/moq/moq4/main/License.txt
+    DownloadUrl: https://www.nuget.org/api/v2/package/Moq/4.18.4
+    DownloadCount: 426712999
+    Authors: Daniel Cazzulino, kzu
+    Icon: {fileID: 0}
+    ProjectUrl: https://github.com/moq/moq4
+    RepositoryUrl: 
+    RepositoryType: 0
+    RepositoryBranch: 
+    RepositoryCommit: 
+  - Id: System.Diagnostics.EventLog
+    Version: 7.0.0
+    Title: System.Diagnostics.EventLog
+    Description: 'Provides the System.Diagnostics.EventLog class, which allows the
+      applications to use the windows event log service.
+
+
+      Commonly Used Types:
+
+      System.Diagnostics.EventLog'
+    Summary: 
+    ReleaseNotes: https://go.microsoft.com/fwlink/?LinkID=799421
+    LicenseUrl: https://licenses.nuget.org/MIT
+    DownloadUrl: https://www.nuget.org/api/v2/package/System.Diagnostics.EventLog/7.0.0
+    DownloadCount: 306850556
+    Authors: Microsoft
+    Icon: {fileID: 0}
+    ProjectUrl: https://dot.net/
+    RepositoryUrl: 
+    RepositoryType: 0
+    RepositoryBranch: 
+    RepositoryCommit: 
+  numberToSkip: 0
+  defaultIcon: {fileID: 2800000, guid: eec19781926cd2248b7c9abfde8db555, type: 3}
 --- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -520,30 +902,36 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3f24f77c633a444893b75d39ae4fa3c, type: 3}
+  m_Script: {fileID: 12043, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
+  m_MinSize: {x: 640, y: 580}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Input Debug
+    m_Text: Build Settings
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2415.2002
-    y: 736.8
-    width: 641.19995
-    height: 373.80005
+    x: 7
+    y: 50
+    width: 1062
+    height: 880
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
+    m_OverlaysVisible: 1
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 5b000000
+    m_SelectedIDs: 525cc998
+    m_LastClickedID: -1731634094
+    m_ExpandedIDs: ffffffff
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -570,76 +958,32 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 12043, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 640, y: 580}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Build Settings
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 7
-    y: 50
-    width: 1062
-    height: 880
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  m_TreeViewState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 525cc998
-    m_LastClickedID: -1731634094
-    m_ExpandedIDs: ffffffff
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 0
-      m_ClientGUIView: {fileID: 0}
-    m_SearchString: 
---- !u!114 &23
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
   m_Script: {fileID: 12070, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 880, y: 216}
+  m_MinSize: {x: 900, y: 216}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Profiler
-    m_Image: {fileID: 2169972056302973491, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -1089619856830078684, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 7
-    y: 50
-    width: 1062
+    y: 963
+    width: 1063
     height: 880
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
+    m_OverlaysVisible: 1
   m_Recording: 1
   m_ActiveNativePlatformSupportModuleName: 
   m_AllModules:
@@ -651,8 +995,6 @@ MonoBehaviour:
   - rid: 3070479899523022853
   - rid: 3070479899523022854
   - rid: 3070479899523022855
-  - rid: 5853908217704742912
-  - rid: 5853908217704742913
   - rid: 3070479899523022858
   - rid: 3070479899523022859
   - rid: 3070479899523022860
@@ -1514,6 +1856,7 @@ MonoBehaviour:
         m_ShowInactiveDSPChains: 0
         m_HighlightAudibleDSPChains: 1
         m_DSPGraphZoomFactor: 1
+        m_DSPGraphHorizontalLayout: 0
     - rid: 3070479899523022853
       type: {class: VideoProfilerModule, ns: UnityEditorInternal.Profiling, asm: UnityEditor.CoreModule}
       data:
@@ -1578,62 +1921,7 @@ MonoBehaviour:
       data:
         m_SortAscending: 0
         m_SortedColumn: -1
-    - rid: 5853908217704742912
-      type: {class: NetworkingMessagesProfilerModule, ns: UnityEditorInternal.Profiling,
-        asm: UnityEditor.CoreModule}
-      data:
-        m_Identifier: UnityEditorInternal.Profiling.NetworkingMessagesProfilerModule,
-          UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-        m_PaneScroll: {x: 0, y: 0}
-    - rid: 5853908217704742913
-      type: {class: NetworkingOperationsProfilerModule, ns: UnityEditorInternal.Profiling,
-        asm: UnityEditor.CoreModule}
-      data:
-        m_Identifier: UnityEditorInternal.Profiling.NetworkingOperationsProfilerModule,
-          UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-        m_PaneScroll: {x: 0, y: 0}
-        m_NetworkSplit:
-          ID: 0
-          splitterInitialOffset: 0
-          currentActiveSplitter: -1
-          realSizes:
-          - 0
-          - 0
-          relativeSizes:
-          - 0.2
-          - 0.8
-          minSizes:
-          - 100
-          - 100
-          maxSizes:
-          - 0
-          - 0
-          lastTotalSize: 0
-          splitSize: 6
-          xOffset: 0
-          m_Version: 1
-          oldRealSizes: 
-          oldMinSizes: 
-          oldMaxSizes: 
-          oldSplitSize: 0
-        msgNames:
-        - UserMessage
-        - ObjectDestroy
-        - ClientRpc
-        - ObjectSpawn
-        - Owner
-        - Command
-        - LocalPlayerTransform
-        - SyncEvent
-        - SyncVars
-        - SyncList
-        - ObjectSpawnScene
-        - NetworkInfo
-        - SpawnFinished
-        - ObjectHide
-        - CRC
-        - ClientAuthority
---- !u!114 &24
+--- !u!114 &23
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1649,7 +1937,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Animation
-    m_Image: {fileID: -3237396543322336831, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -8166618308981325432, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
@@ -1658,14 +1946,20 @@ MonoBehaviour:
     y: 737.60004
     width: 641
     height: 372.80005
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
+    m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
   m_LastSelectedObjectID: 30494
---- !u!114 &25
+--- !u!114 &24
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1681,7 +1975,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Animator
-    m_Image: {fileID: 1711060831702674872, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -1673928668082335149, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
@@ -1690,10 +1984,16 @@ MonoBehaviour:
     y: 1073.6001
     width: 1362.2
     height: 325.80005
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
+    m_OverlaysVisible: 1
   m_ViewTransforms:
     m_KeySerializationHelper:
     - {fileID: 110708794, guid: 7ef008715f685554286d117413455381, type: 2}
@@ -1731,7 +2031,7 @@ MonoBehaviour:
   m_CurrentEditor: 1
   m_LayerEditor:
     m_SelectedLayerIndex: 0
---- !u!114 &26
+--- !u!114 &25
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1755,17 +2055,23 @@ MonoBehaviour:
     y: 963
     width: 1063
     height: 880
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
+    m_OverlaysVisible: 1
   m_Spl:
-    ID: 269
+    ID: 1318
     splitterInitialOffset: 661
     currentActiveSplitter: -1
     realSizes:
-    - 611
-    - 204
+    - 612
+    - 205
     relativeSizes:
     - 0.74939466
     - 0.25060534
@@ -1775,7 +2081,7 @@ MonoBehaviour:
     maxSizes:
     - 0
     - 0
-    lastTotalSize: 815
+    lastTotalSize: 817
     splitSize: 6
     xOffset: 0
     m_Version: 1
@@ -1783,7 +2089,7 @@ MonoBehaviour:
     oldMinSizes: 
     oldMaxSizes: 
     oldSplitSize: 0
---- !u!114 &27
+--- !u!114 &26
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1799,7 +2105,7 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
-    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
@@ -1808,10 +2114,16 @@ MonoBehaviour:
     y: 1034.4
     width: 392.3999
     height: 365.00006
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
+    m_OverlaysVisible: 1
   m_SearchFilter:
     m_NameFilter: 
     m_ClassNames: []
@@ -1825,22 +2137,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/UnityFoundation/GameplaySystems/Cursors/ScreenCursor/Debug
+    - Assets/Packages
     m_Globs: []
     m_OriginalText: 
+    m_ImportLogFlags: 0
   m_ViewMode: 1
   m_StartGridSize: 58
   m_LastFolders:
-  - Assets/UnityFoundation/GameplaySystems/Cursors/ScreenCursor/Debug
+  - Assets/Packages
   m_LastFoldersGridSize: 58
   m_LastProjectPath: C:\biluca-projs\unity-foundation-samples
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 742.99994}
-    m_SelectedIDs: 6c730000
-    m_LastClickedID: 29548
-    m_ExpandedIDs: 00000000427300004473000046730000487300004a7300004c7300004e73000050730000527300005473000056730000587300005a7300005c7300005e73000060730000627300006473000066730000687300006a730000
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 54ac0000
+    m_LastClickedID: 44116
+    m_ExpandedIDs: 000000004eac000054ac00005cac00005eac000066ac00006cac000084d700008cd7000060f9000032fa000060fa0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1868,7 +2181,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000427300004473000046730000487300004a7300004c7300004e73000050730000527300005473000056730000587300005a7300005c7300005e73000060730000627300006473000066730000687300006a7300006c730000
+    m_ExpandedIDs: 00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1895,8 +2208,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: ce0b01005e7600000000000044c300005c7400007c0401000c040000
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: ce0b01005e76000044c300005c7400007c0401000c04000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1924,7 +2237,7 @@ MonoBehaviour:
     m_GridSize: 58
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 50
---- !u!114 &28
+--- !u!114 &27
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1940,7 +2253,7 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
-    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
@@ -1949,10 +2262,16 @@ MonoBehaviour:
     y: 361.6
     width: 392.3999
     height: 651.8
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
+    m_OverlaysVisible: 1
   m_SearchFilter:
     m_NameFilter: 
     m_ClassNames: []
@@ -1965,9 +2284,11 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders: []
+    m_Folders:
+    - Assets/Packages/Microsoft.Bcl.AsyncInterfaces.1.0.0
     m_Globs: []
     m_OriginalText: 
+    m_ImportLogFlags: 0
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
@@ -1979,7 +2300,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 7c860000
     m_LastClickedID: 34428
-    m_ExpandedIDs: 00000000427300004473000046730000487300004a7300004c7300004e73000050730000527300005473000056730000587300005a7300005c7300005e73000060730000627300006473000066730000687300006a7300006c730000
+    m_ExpandedIDs: 00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2004,24 +2325,24 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 626.2}
+    scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000427300004473000046730000487300004a7300004c7300004e73000050730000527300005473000056730000587300005a7300005c7300005e73000060730000627300006473000066730000687300006a7300006c730000
+    m_ExpandedIDs: ffffffff000000004eac000054ac00005cac00005eac000066ac00008cd7000094d700005ef9000060f9000032fa00004efa000050fa000052fa000056fa000060fa000074fa0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: DialogueCsvHandler
+      m_OriginalName: DialogueCsvHandler
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 2382
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 14}
     m_SearchString: 
@@ -2063,7 +2384,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 149
---- !u!114 &29
+--- !u!114 &28
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2088,10 +2409,16 @@ MonoBehaviour:
     y: 361.6
     width: 508.6001
     height: 1037.8
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
+    m_OverlaysVisible: 1
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
@@ -2105,7 +2432,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &30
+--- !u!114 &29
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2121,7 +2448,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
@@ -2130,16 +2457,22 @@ MonoBehaviour:
     y: 1073.6001
     width: 505.19995
     height: 325.80005
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
+    m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 68ac0000
       m_LastClickedID: 0
-      m_ExpandedIDs: defaffffac700000
+      m_ExpandedIDs: a2e0fdffb0e2fdff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -2163,7 +2496,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &31
+--- !u!114 &30
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2179,7 +2512,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
@@ -2188,6 +2521,11 @@ MonoBehaviour:
     y: 361.6
     width: 918.8
     height: 691
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -2203,6 +2541,8 @@ MonoBehaviour:
       id: Tool Settings
       index: 0
       layout: 1
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
     - dockPosition: 0
       containerId: overlay-toolbar__top
       floating: 0
@@ -2214,6 +2554,8 @@ MonoBehaviour:
       id: unity-grid-and-snap-toolbar
       index: 1
       layout: 1
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
     - dockPosition: 1
       containerId: overlay-toolbar__top
       floating: 0
@@ -2225,6 +2567,8 @@ MonoBehaviour:
       id: unity-scene-view-toolbar
       index: 0
       layout: 1
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
     - dockPosition: 1
       containerId: overlay-toolbar__top
       floating: 0
@@ -2236,6 +2580,8 @@ MonoBehaviour:
       id: unity-search-toolbar
       index: 1
       layout: 1
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
     - dockPosition: 0
       containerId: overlay-container--left
       floating: 0
@@ -2247,6 +2593,8 @@ MonoBehaviour:
       id: unity-transform-toolbar
       index: 0
       layout: 2
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
     - dockPosition: 0
       containerId: overlay-container--right
       floating: 0
@@ -2258,6 +2606,8 @@ MonoBehaviour:
       id: Orientation
       index: 0
       layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
     - dockPosition: 1
       containerId: overlay-container--right
       floating: 0
@@ -2269,6 +2619,8 @@ MonoBehaviour:
       id: Scene View/Light Settings
       index: 0
       layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
     - dockPosition: 1
       containerId: overlay-container--right
       floating: 0
@@ -2280,6 +2632,8 @@ MonoBehaviour:
       id: Scene View/Camera
       index: 1
       layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
     - dockPosition: 1
       containerId: overlay-container--right
       floating: 0
@@ -2291,6 +2645,8 @@ MonoBehaviour:
       id: Scene View/Cloth Constraints
       index: 2
       layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
     - dockPosition: 1
       containerId: overlay-container--right
       floating: 0
@@ -2302,6 +2658,8 @@ MonoBehaviour:
       id: Scene View/Cloth Collisions
       index: 3
       layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
     - dockPosition: 1
       containerId: overlay-container--right
       floating: 0
@@ -2313,6 +2671,8 @@ MonoBehaviour:
       id: Scene View/Navmesh Display
       index: 4
       layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
     - dockPosition: 1
       containerId: overlay-container--right
       floating: 0
@@ -2324,6 +2684,8 @@ MonoBehaviour:
       id: Scene View/Agent Display
       index: 6
       layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
     - dockPosition: 1
       containerId: overlay-container--right
       floating: 0
@@ -2335,6 +2697,8 @@ MonoBehaviour:
       id: Scene View/Obstacle Display
       index: 8
       layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
     - dockPosition: 1
       containerId: overlay-container--right
       floating: 0
@@ -2344,8 +2708,10 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Occlusion Culling
-      index: 5
+      index: 4
       layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
     - dockPosition: 1
       containerId: overlay-container--right
       floating: 0
@@ -2355,8 +2721,10 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Physics Debugger
-      index: 7
+      index: 5
       layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
     - dockPosition: 1
       containerId: overlay-container--right
       floating: 0
@@ -2366,8 +2734,10 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Scene Visibility
-      index: 9
+      index: 7
       layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
     - dockPosition: 1
       containerId: overlay-container--right
       floating: 0
@@ -2377,8 +2747,10 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Particles
-      index: 10
+      index: 8
       layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
     - dockPosition: 1
       containerId: overlay-toolbar__top
       floating: 0
@@ -2390,6 +2762,8 @@ MonoBehaviour:
       id: Scene View/Open Tile Palette
       index: 2
       layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
     - dockPosition: 1
       containerId: overlay-toolbar__top
       floating: 0
@@ -2401,6 +2775,8 @@ MonoBehaviour:
       id: Scene View/Tilemap Focus
       index: 3
       layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
     - dockPosition: 1
       containerId: overlay-container--right
       floating: 0
@@ -2412,6 +2788,8 @@ MonoBehaviour:
       id: Scene View/Path
       index: 8
       layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
     - dockPosition: 0
       containerId: overlay-toolbar__top
       floating: 0
@@ -2423,6 +2801,8 @@ MonoBehaviour:
       id: AINavigationOverlay
       index: 2
       layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
     - dockPosition: 1
       containerId: overlay-container--right
       floating: 0
@@ -2432,8 +2812,10 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: APV Overlay
-      index: 9
+      index: 6
       layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
     - dockPosition: 1
       containerId: overlay-container--right
       floating: 0
@@ -2445,6 +2827,8 @@ MonoBehaviour:
       id: Cinemachine Tool Settings
       index: 10
       layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
     - dockPosition: 1
       containerId: overlay-container--right
       floating: 0
@@ -2454,21 +2838,24 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/TrailRenderer
-      index: 11
+      index: 9
       layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    m_OverlaysVisible: 1
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
   m_Gizmos: 0
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
   m_SceneLighting: 1
-  m_2DMode: 1
+  m_2DMode: 0
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 953.1783, y: 551.66614, z: 0.09196615}
+    m_Target: {x: 0, y: 0, z: 0}
     speed: 2
-    m_Value: {x: 953.1783, y: 551.66614, z: 0.09196615}
+    m_Value: {x: 0, y: 0, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -2476,7 +2863,6 @@ MonoBehaviour:
     section: Shading Mode
   m_ValidateTrueMetals: 0
   m_DoValidateTrueMetals: 0
-  m_ExposureSliderValue: 0
   m_SceneViewState:
     m_AlwaysRefresh: 0
     showFog: 1
@@ -2497,17 +2883,17 @@ MonoBehaviour:
       m_Size: {x: 0, y: 0}
     yGrid:
       m_Fade:
-        m_Target: 0
+        m_Target: 1
         speed: 2
-        m_Value: 0
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
     zGrid:
       m_Fade:
-        m_Target: 1
+        m_Target: 0
         speed: 2
-        m_Value: 1
+        m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
@@ -2515,17 +2901,17 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
+    m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_Size:
-    m_Target: 793.1381
+    m_Target: 10
     speed: 2
-    m_Value: 793.1381
+    m_Value: 10
   m_Ortho:
-    m_Target: 1
+    m_Target: 0
     speed: 2
-    m_Value: 1
+    m_Value: 0
   m_CameraSettings:
     m_Speed: 1
     m_SpeedNormalized: 0.5
@@ -2546,7 +2932,7 @@ MonoBehaviour:
   m_SceneVisActive: 0
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &32
+--- !u!114 &31
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2562,19 +2948,25 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
-    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 1080.6
     y: 361.6
-    width: 926.2
+    width: 926
     height: 691
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
+    m_OverlaysVisible: 1
   m_SerializedViewNames: []
   m_SerializedViewValues: []
   m_PlayModeViewName: GameView
@@ -2617,10 +3009,10 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 926.2
+      width: 926
       height: 670
-    m_Scale: {x: 0.6029948, y: 0.6029948}
-    m_Translation: {x: 463.1, y: 335}
+    m_Scale: {x: 0.60286456, y: 0.60286456}
+    m_Translation: {x: 463, y: 335}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -2628,18 +3020,18 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -768
-      y: -555.56036
+      y: -555.68036
       width: 1536
-      height: 1111.1207
+      height: 1111.3607
     m_MinimalGUI: 1
-  m_defaultScale: 0.6029948
-  m_LastWindowPixelSize: {x: 1157.75, y: 863.75}
+  m_defaultScale: 0.60286456
+  m_LastWindowPixelSize: {x: 1157.5, y: 863.75}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &33
+--- !u!114 &32
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2655,7 +3047,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
-    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
@@ -2664,7 +3056,13 @@ MonoBehaviour:
     y: 1073.6001
     width: 1339.8
     height: 325.80005
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
+    m_OverlaysVisible: 1
