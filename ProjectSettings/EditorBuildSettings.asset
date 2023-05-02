@@ -6,12 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/UnityFoundationSamples/UnityFoundation.Code/Features/GameSceneLoader/main_scene.unity
+    path: Assets/UnityFoundationSamples/UnityFoundation.Code/Features/GameSceneLoader/Scenes/main_scene.unity
     guid: 70734a1c67c0c324498410da28ca2463
   - enabled: 1
-    path: Assets/UnityFoundationSamples/UnityFoundation.Code/Features/GameSceneLoader/scene_2.unity
+    path: Assets/UnityFoundationSamples/UnityFoundation.Code/Features/GameSceneLoader/Scenes/scene_2.unity
     guid: 565cd608a36f9f34bb92a9568271ee84
-  - enabled: 1
-    path: Assets/UnityFoundationSamples/UnityFoundation.Code/Features/GameSceneLoader/main_scene_2.unity
-    guid: 140abc369affdbf4ca237cfa4d910822
   m_configObjects: {}
